@@ -6,6 +6,6 @@ def disemvowel(comment):
     For example, the string "This website is for losers LOL!" would
     become "Ths wbst s fr lsrs LL!".
     """
-    
+
     vowels = ['a', 'e', 'i', 'o', 'u']
     return ''.join([c for c in comment if c.lower() not in vowels])
