@@ -1,5 +1,7 @@
 def one_bits(x):
-    """Given an integer, compute the number of bits set to 1"""
+    """Given an integer, compute the number of bits set to 1
+    Problem from 'Elements of Programming Interviews'.
+    """
     m = 1
     count = 0
     for i in range(x // 2 + 1):
